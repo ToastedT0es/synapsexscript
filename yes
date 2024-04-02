@@ -1,8 +1,7 @@
 NotificationHolder = loadstring(game:HttpGet("https://raw.githubusercontent.com/BocusLuke/UI/main/STX/Module.Lua"))()
-
 local Notification = loadstring(game:HttpGet("https://raw.githubusercontent.com/BocusLuke/UI/main/STX/Client.Lua"))() Notification:Notify( {Title = "Synapse X - ..SynapseXVerison..", Description = "This is a revamp not the real Synapse X."}, {OutlineColor = Color3.fromRGB(255, 56, 0, 1),Time = 5, Type = "image"}, {Image = "http://www.roblox.com/asset/?id=7641125882", ImageColor = Color3.fromRGB(255, 56, 0, 1)} )
 
-local Notification = loadstring(game:HttpGet("https://raw.githubusercontent.com/BocusLuke/UI/main/STX/Client.Lua"))() Notification:Notify( {Title = "Synapse X - ..SynapseXVerison.." 1.00.00", Description = "Made by ToastedT0es and VoidGamerCoreGameFan. "}, {OutlineColor = Color3.fromRGB(255, 56, 0, 1),Time = 5, Type = "image"}, {Image = "http://www.roblox.com/asset/?id=7641125882", ImageColor = Color3.fromRGB(255, 56, 0, 1)} )
+local Notification = loadstring(game:HttpGet("https://raw.githubusercontent.com/BocusLuke/UI/main/STX/Client.Lua"))() Notification:Notify( {Title = "Synapse X - ..SynapseXVerison..", Description = "Made by ToastedT0es and VoidGamerCoreGameFan."}, {OutlineColor = Color3.fromRGB(255, 56, 0, 1),Time = 5, Type = "image"}, {Image = "http://www.roblox.com/asset/?id=7641125882", ImageColor = Color3.fromRGB(255, 56, 0, 1)} )
 
 local SynapseX = Instance.new("ScreenGui")
 local MainFrame = Instance.new("Frame")
